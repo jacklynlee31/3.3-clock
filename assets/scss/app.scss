@@ -1,6 +1,16 @@
 @import 'reset';
 @import 'bourbon';
 
+#clock {
+	color: black;
+	font-size: 10em;
+	font-family: monospace;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%)
+}
+
 #radial-1 {
 	background: radial-gradient(circle at top right, red, orange, yellow);
 	width: 100%;
